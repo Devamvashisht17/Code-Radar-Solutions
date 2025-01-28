@@ -6,6 +6,6 @@ void main() {
         printf("True\n");
     }
     else{
-        printf("Fale\n");
+        printf("False\n");
     }
 }
