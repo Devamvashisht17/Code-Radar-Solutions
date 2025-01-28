@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 void main() {
     char nm[50],hobby[50];
     int age;
