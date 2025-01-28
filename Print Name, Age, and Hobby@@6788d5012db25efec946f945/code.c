@@ -6,5 +6,4 @@ void main() {
     printf("Name: %s\n",nm);
     printf("Age: %d\n",age);
     printf("Hobby: %s\n",hobby);
-    
 }
