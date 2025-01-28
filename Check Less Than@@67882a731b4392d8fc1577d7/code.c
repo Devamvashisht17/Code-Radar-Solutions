@@ -6,7 +6,7 @@ void main() {
     printf("Enter the second number",b);
     scanf("%d",&b);
     if(a<b) {
-    printf(True);
+        printf(True);
     }
     else{
         printf(False);
