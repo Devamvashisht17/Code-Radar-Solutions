@@ -1,7 +1,8 @@
 #include<stdio.h>
-void main() {
+int main() {
     int num,result;
     scanf("&d",&num);
     result=~num;
     printf("%d\n",result);
+    return 0;
 }
