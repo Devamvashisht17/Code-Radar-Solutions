@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main() {
     long int num,result;
-    scanf("&d",&num);
+    scanf("&ld",&num);
     result=~num;
-    printf("%d\n",result);
+    printf("%ld\n",result);
     return 0;
 }
