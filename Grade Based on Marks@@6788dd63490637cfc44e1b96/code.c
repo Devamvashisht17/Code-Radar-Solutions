@@ -14,11 +14,8 @@ void main() {
     else if(marks>=60||marks<70) {
         printf("D\n");
     }
-    else if(marks<60) {
-        printf("F\n");
-    }
     else{
-        printf("Wrong Input");
+        printf("F\n");
     }
     }
 }
