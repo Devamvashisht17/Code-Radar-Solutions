@@ -5,8 +5,8 @@ void main() {
     if(s1!=s2&&s2!=s3&&s1!=s3) {
         printf("scalene");
     }
-    else if(s1=s2=s3) {
-        printf("Equilateral");
+    else if(s1==s2||s2==s3) {
+        printf("Isosceles\n");
     }
     else{
         printf("Isosceles");
