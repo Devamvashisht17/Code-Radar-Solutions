@@ -9,6 +9,6 @@ void main() {
         printf("Equilateral\n");
     }
     else{
-        printf("Scalene");
+        printf("Scalene\n");
     }
 }
