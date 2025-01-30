@@ -2,7 +2,7 @@
 void main() {
     int cp,sp;
     scanf("%d%d",&cp,&sp);
-    if(cp>=sp || cp<0) {
+    if(cp>=sp) {
         printf("Loss\n");
     }
     else if(sp>=cp) {
