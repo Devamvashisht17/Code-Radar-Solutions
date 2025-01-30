@@ -17,5 +17,8 @@ void main() {
     else if(marks<60) {
         printf("F\n");
     }
+    else{
+        printf("Wrong Input");
+    }
     }
 }
