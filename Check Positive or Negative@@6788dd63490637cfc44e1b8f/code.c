@@ -5,7 +5,7 @@ void main() {
     if(num1>0) {
         printf("Positive\n");
     }
-    else (num1<0) {
+    else if(num1<0) {
         printf("Negative\n");
     }
     else{
