@@ -1,5 +1,5 @@
-#include<conio.h>
-int main() {
+#include<stdio.h>
+void main() {
     int num1,num2;
     char operation;
     scanf("%d%d%c",&num1,&num2,&operation);
@@ -18,5 +18,4 @@ int main() {
     else{
         printf("Error\n");
     }
-    return 0;
 }
