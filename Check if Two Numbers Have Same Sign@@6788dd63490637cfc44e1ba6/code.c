@@ -5,10 +5,7 @@ void main() {
     if(num1>0&&num2>0 || num1<0&&num2||0) {
         printf("Same Sign\n");
     }
-    else if(num1>=0&&num2<=0||num1<=0&&num2>=0){
-        printf("Different Sign\n");
-    }
     else{
-        printf("Wrong Input\n");
+        printf("Different Sign\n");
     }
 }
