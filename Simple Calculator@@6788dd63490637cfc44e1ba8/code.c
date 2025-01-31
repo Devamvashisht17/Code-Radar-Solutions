@@ -8,7 +8,7 @@ int main() {
         printf("%d\n",num1+num2);
     }
     else if(operation== '-'){
-        printf("%d\n",num2-num1);
+        printf("%d\n",num1-num2);
     }
     else if(operation== '*'){
         printf("%d\n",num1*num2);
