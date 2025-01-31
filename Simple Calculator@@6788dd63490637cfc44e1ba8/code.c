@@ -2,18 +2,18 @@
 int main() {
     int num1,num2;
     char op;
-    scanf("%d%d",&num1,&num2);
+    scanf("%d%d", &num1, &num2);
     scanf("%c", &op);
-    if(op=='+'){
+    if(op== '+'){
         printf("%d\n",num1+num2);
     }
-    else if(op=='-'){
+    else if(op== '-'){
         printf("%d\n",num2-num1);
     }
-    else if(op=='*'){
+    else if(op== '*'){
         printf("%d\n",num1*num2);
     }
-    else if(op=='/'){
+    else if(op== '/'){
         printf("%d\n",num1/num2);
     }
     else{
