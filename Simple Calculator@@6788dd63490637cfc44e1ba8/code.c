@@ -6,7 +6,7 @@ int main() {
     //char operation;
     if(operation== '+'){
         printf("%d\n",num1+num2);
-    }
+    };
     else if(operation== '-'){
         printf("%d\n",num1-num2);
     }
