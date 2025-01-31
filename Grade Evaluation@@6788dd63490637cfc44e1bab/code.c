@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main() {
+int main() {
     char ch;
     scanf("%c", %ch);
     if(ch == 'A'){
@@ -20,4 +20,5 @@ void main() {
     else{
         printf("Invalid grade");
     }
+    return 0;
 }
