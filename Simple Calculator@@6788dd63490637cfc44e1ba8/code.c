@@ -12,7 +12,10 @@ void main() {
     else if(operation== '*'){
         printf("%d",num1*num2);
     }
+    else if(operation== '/'){
+        printf("%d",num1/num2);
+    }
     else{
-        printf("%d",num/num2);
+        printf("Error\n");
     }
 }
