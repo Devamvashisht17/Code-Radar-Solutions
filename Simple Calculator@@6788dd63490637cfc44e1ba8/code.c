@@ -1,21 +1,18 @@
 #include<stdio.h>
 void main() {
     int num1,num2;
-    char operation;
-    scanf("%d%d%c",&num1,&num2,&operation);
-    if(operation== '+'){
+    char op;
+    scanf("%d%d%c",&num1,&num2,&op);
+    switch(op){
+        case '+':
         printf("%d",num1+num2);
-    }
-    else if(operation== '-'){
+        case '-':
         printf("%d",num1-num2);
-    }
-    else if(operation== '*'){
+        case '*':
         printf("%d",num1*num2);
-    }
-    else if(operation== '/'){
+        case '/':
         printf("%d",num1/num2);
-    }
-    else{
+        default:
         printf("Error\n");
     }
 }
