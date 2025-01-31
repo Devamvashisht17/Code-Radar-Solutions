@@ -9,9 +9,11 @@ void main() {
         break;
         case '-':
         printf("%d",num1-num2);
+        break;
         case '*':
         printf("%d",num1*num2);
         case '/':
+        break;
         printf("%d",num1/num2);
         default:
         printf("Error\n");
