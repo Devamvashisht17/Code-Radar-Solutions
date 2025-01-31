@@ -14,12 +14,10 @@ void main() {
         printf("%d\n", num1*num2);
     }
     else if(op=='/'){
-        if(num2==0){
+        if(num2==0)
             printf("Error\n");
-        }
-        else{
-            printf("%d\n",num1/num2)
-        }
+        else
+            printf("%d\n",num1/num2);
     }
     else{
         printf("Error\n");
