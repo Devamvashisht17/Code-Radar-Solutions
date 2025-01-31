@@ -2,19 +2,19 @@
 void main() {
     char ch;
     scanf("%c", %ch);
-    if(ch== 'A'|| ch== 'a'){
+    if(ch== 'A'){
         printf("Excellent\n");
     }
-    else if(ch== 'B' || ch=='b'){
+    else if(ch== 'B'){
         printf("Good\n");
     }
-    else if(ch== 'C' || ch=='c'){
+    else if(ch== 'C'){
         printf("Average\n");
     }
-    else if(ch== 'D' || ch=='d'){
+    else if(ch== 'D'){
         printf("Below Average\n");
     }
-    else if(ch== 'F' || ch=='f'){
+    else if(ch== 'F'){
         printf("Fail\n");
     }
     else{
