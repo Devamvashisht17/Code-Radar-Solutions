@@ -1,5 +1,5 @@
 #include<stdio.h>
-void mai() {
+void main() {
     float f;
     scanf("%f",&f);
     if(f<=0){
