@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main() {
+int main() {
     int month;
     scanf("%d",&month):
     if(month==1){
@@ -41,4 +41,5 @@ void main() {
     else{
         printf("Invalid month\n");
     }
+    return 0;
 }
