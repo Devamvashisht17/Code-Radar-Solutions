@@ -19,7 +19,6 @@ void main() {
         else
             printf("%d\n",num1/num2);
     }
-    else{
+    else
         printf("Error\n");
-    }
 }
