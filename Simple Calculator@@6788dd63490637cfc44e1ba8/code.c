@@ -5,13 +5,13 @@ void main() {
     scanf("%d%d",&num1,&num2);
     scanf("%c",&op);
     if(op=='+'){
-        printf("%d\n",num1+num2);
+        printf("%d\n", num1+num2);
     }
     else if(op=='-'){
-        printf("%d\n",num1-num2);
+        printf("%d\n", num1-num2);
     }
     else if(op=='*'){
-        printf("%d\n",num1*num2);
+        printf("%d\n", num1*num2);
     }
     else if(op=='/'){
         if(num2==0){
