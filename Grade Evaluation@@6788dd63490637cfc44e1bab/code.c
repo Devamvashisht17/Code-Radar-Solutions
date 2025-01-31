@@ -1,24 +1,23 @@
 #include<stdio.h>
-int main() {
-    char ch;
-    scanf("%c", %ch);
-    if(ch == 'A'){
-        printf("Excellent");
+void main() {
+    char grade;
+    scanf("%c",&grade);
+    if(grade=="A"){
+        printf("Excellent\n");
     }
-    else if(ch == 'B'){
-        printf("Good");
+    else if(grade=="B"){
+        printf("Good\n");
     }
-    else if(ch == 'C'){
-        printf("Average");
+    else if(grade=="C"){
+        printf("Average\n");
     }
-    else if(ch == 'D'){
-        printf("Below Average");
+    else if(grade=="D"){
+        printf("Below Average\n");
     }
-    else if(ch == 'F'){
-        printf("Fail");
+    else if(grade=="F"){
+        printf("Fail\n");
     }
     else{
-        printf("Invalid grade");
+        printf("Invalid grade\n");
     }
-    return 0;
 }
