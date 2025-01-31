@@ -4,18 +4,18 @@ void main() {
     char operation;
     scanf("%d%d%c",&num1,&num2,&operation);
     if(operation== '+'){
-        printf("%d\n",num1+num2);
+        printf("%d",num1+num2);
     }
     else if(operation== '-'){
-        printf("%d\n",num1-num2);
+        printf("%d",num1-num2);
     }
     else if(operation== '*'){
-        printf("%d\n",num1*num2);
+        printf("%d",num1*num2);
     }
     else if(operation== '/'){
-        printf("%d\n",num1/num2);
+        printf("%d",num1/num2);
     }
     else{
-        printf("Error\n");
+        printf("Error");
     }
 }
