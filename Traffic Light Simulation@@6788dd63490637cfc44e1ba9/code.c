@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main() {
+int main() {
     char signal;
     if(signal =='R'){
         printf("Stop");
@@ -13,4 +13,5 @@ void main() {
     else{
         printf("Invalid input");
     }
+    return 0;
 }
