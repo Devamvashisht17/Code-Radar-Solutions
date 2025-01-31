@@ -1,8 +1,9 @@
 #include<stdio.h>
 int main() {
     int num1,num2;
-    scanf("%d%d",&num1,&num2);
     char operation;
+    scanf("%d%d%c",&num1,&num2,&operation);
+    //char operation;
     if(operation== '+'){
         printf("%d\n",num1+num2);
     }
