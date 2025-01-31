@@ -5,8 +5,8 @@ int main() {
     scanf("%d%d%c",&num1,&num2,&operation);
     //char operation;
     if(operation== '+'){
-        printf("%d\n",num1+num2);
-    };
+        printf("%d",num1+num2);
+    }
     else if(operation== '-'){
         printf("%d\n",num1-num2);
     }
