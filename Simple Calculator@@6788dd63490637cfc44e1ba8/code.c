@@ -4,7 +4,7 @@ int main() {
     char operation;
     scanf("%d%d%c",&num1,&num2,&operation);
     //char operation;
-    if(&operation== '+'){
+    if(operation== '+'){
         printf("%d\n",num1+num2);
     }
     else if(operation== '-'){
