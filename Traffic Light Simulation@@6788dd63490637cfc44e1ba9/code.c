@@ -2,15 +2,15 @@
 void main() {
     char signal;
     if(signal =='R'){
-        printf("Stop\n");
+        printf("Stop");
     }
-    else if(signal=='G'){
-        printf("Go\n");
+    else if(signal =='G'){
+        printf("Go");
     }
-    else if(signal=='Y'){
-        printf("Slow Down\n");
+    else if(signal =='Y'){
+        printf("Slow Down");
     }
     else{
-        printf("Invalid input\n");
+        printf("Invalid input");
     }
 }
