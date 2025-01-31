@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main() {
+int main() {
     int num1,num2;
     char op;
     scanf("%d%d",&num1,&num2);
@@ -16,5 +16,5 @@ void main() {
     else{
         printf("Error\n");
     }
-
+    return 0;
 }
