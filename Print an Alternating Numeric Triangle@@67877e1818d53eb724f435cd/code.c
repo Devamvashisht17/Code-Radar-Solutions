@@ -1,14 +1,14 @@
 #include<stdio.h>
 void main() {
-    int N;
+    int N,start=1;
     scanf("%d",&N);
     for(int i=1;i<=N;i++){
-        for(int j=1;j<=N-i;j++){
-            printf(" ");
+        int num=start;
+        for(int j=1;j<=i;j++){
+            printf("%d ", num);
+            num=1-num;
         }
-        for(int k=1;k<=i;k++){
-            printf("%d ", (k+i)%2);
-        }
+        start=1-start;
         printf("\n");
     }
 }
