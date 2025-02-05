@@ -18,7 +18,7 @@ void main() {
                 printf("%d",num1/num2);
             }
             else
-            printf("Error\n");
+            printf("error\n");
         break;
         default:
         printf("Error\n");
