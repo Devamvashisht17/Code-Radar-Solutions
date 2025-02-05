@@ -12,10 +12,12 @@ void main() {
         break;
         case '*':
         printf("%d",num1*num2);
-        case '/':
         break;
+        case '/':
         printf("%d",num1/num2);
+        break;
         default:
         printf("Error\n");
+        break;
     }
 }
