@@ -18,6 +18,5 @@ void main() {
         break;
         default:
         printf("Error\n");
-        break;
     }
 }
