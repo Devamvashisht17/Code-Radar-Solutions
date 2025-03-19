@@ -9,8 +9,11 @@ int main(){
         scanf("%d", &arr[i]);
     }
     for(int i=1; i<N;i++){
-        if(arr[i] > arr[i-1] && arr[i] > arr[i+1])
+        if(arr[i] > arr[i-1] && arr[i] > arr[i+1]){
+            printf("%d\n", arr[i]);
+            return 0;
+        }
     }
-    printf(arr[i]);
+    printf("-1\n");
     return 0;
 }
