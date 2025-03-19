@@ -12,6 +12,6 @@ void main(){
             printf("Not Sorted\n");
             break;
         }
+        printf("Sorted\n");
     }
-    printf("Sorted\n");
 }
