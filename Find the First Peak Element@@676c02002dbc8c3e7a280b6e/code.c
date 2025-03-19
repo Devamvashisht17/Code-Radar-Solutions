@@ -14,6 +14,9 @@ int main(){
             return 0;
         }
     }
+    if(arr[n-1]>arr[n-2]){
+        printf("%d", &arr[i-1]);
+    }
     printf("-1\n");
     return 0;
 }
