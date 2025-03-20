@@ -14,10 +14,10 @@ int main(){
             return 0;
         }
     }
-    if(arr[N-1]>arr[N-2]){
-        printf("%d\n", arr[N-1]);
-        return 0;
-    }
+    // if(arr[N-1]>arr[N-2]){
+    //     printf("%d\n", arr[N-1]);
+    //     return 0;
+    // }
     // if (arr[0] > arr[1]) {
     //     printf("%d\n", arr[0]);
     //     return 0;
