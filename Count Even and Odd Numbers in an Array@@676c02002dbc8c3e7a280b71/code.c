@@ -11,7 +11,7 @@ int main(){
         if(arr[i]%2== 0){
             printf("%d", arr[i]);
         }
-        else(arr[i]%2 !=0){
+        else if(arr[i]%2 !=0){
             printf("%d", arr[i]);
         }
     }
