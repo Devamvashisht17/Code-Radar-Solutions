@@ -9,10 +9,10 @@ int main(){
     }
     for(int i=1;i<N;i++){
         if(arr[i]%2== 0){
-            printf("%d\n", arr[i]);
+            printf("%d", arr[i]);
         }
-        if(arr[i]%2 !=0){
-            printf("%d\n", arr[i]);
+        else(arr[i]%2 !=0){
+            printf("%d", arr[i]);
         }
     }
     return 0;
