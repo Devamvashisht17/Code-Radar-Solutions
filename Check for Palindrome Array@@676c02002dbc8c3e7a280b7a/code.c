@@ -6,7 +6,7 @@ int main() {
         scanf("%d", &a[i]);
     }
     for(i=0;i<N;i++){
-        for(j=i;j<N;j++){
+        for(j=i;j<=N;j++){
             if(a[i]==a[N-1-i]){
                 flag=1;
                 break;
