@@ -19,10 +19,10 @@ int main(){
             slargest= arr[i];
         }
         if(slargest==INT_MIN){
-            printf("No second largest element\n");
+            printf("-1\n");
         }
         else{
-            printf("The second largest element is: %d\n", slargest);
+            printf(slargest);
         }
         return 0;
     }
