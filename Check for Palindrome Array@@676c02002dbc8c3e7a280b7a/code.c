@@ -18,9 +18,9 @@ int main() {
         }
     }
     if(flag==1 || N==1){
-        printf("YES");
+        printf("YES\n");
     }
     else if(flag==0 ){
-        printf("NO");
+        printf("NO\n");
     }
     }
