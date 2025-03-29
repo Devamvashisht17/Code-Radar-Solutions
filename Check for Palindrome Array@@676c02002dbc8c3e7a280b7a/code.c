@@ -11,10 +11,10 @@ int main() {
                 flag=1;
                 break;
             }
-            else{
+            // else{
                 
-                flag=0;
-            }
+            //     flag=0;
+            // }
         }
     }
     if(flag==1 || N==1){
