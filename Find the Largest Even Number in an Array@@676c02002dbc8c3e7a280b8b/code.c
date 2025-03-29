@@ -3,7 +3,7 @@
 int main() {
     int N, num;
     scanf("%d", &N);
-    highest_even = INT_MIN;
+    int highest_even = INT_MIN;
     for (int i=0;i<N;i++) {
         scanf("%d", &num);
         if (num%2==0 && num>highest_even) {
