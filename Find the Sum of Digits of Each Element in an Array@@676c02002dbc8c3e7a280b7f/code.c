@@ -24,7 +24,7 @@ int main() {
         else if(a[i]<0){
            int sum_neg=0;
              while (a[i] != 0) {
-               int num=-(a[i]);
+               int num=(a[i]);
             n = num % 10;    
             sum_neg =sum_neg+ n;         
             num =num/ 10;       
