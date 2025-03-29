@@ -23,4 +23,5 @@ int main() {
     else if(flag==0 ){
         printf("NO\n");
     }
+    return 0;
     }
