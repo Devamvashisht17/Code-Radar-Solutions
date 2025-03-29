@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    int N,i,j,flag=0,a[100]={};
+    int N,i,j,flag=1,a[100]={};
     scanf("%d",&N);
     for (i=0;i<N;i++) {
         scanf("%d", &a[i]);
@@ -8,7 +8,7 @@ int main() {
     for(i=0;i<N;i++){
         for(j=i;j<=N;j++){
             if(a[i]!=a[N-1-i]){
-                flag=1;
+                flag=0;
                 break;
             }
         }
