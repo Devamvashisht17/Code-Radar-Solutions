@@ -1,22 +1,27 @@
 #include <stdio.h>
+
 int main() {
-    int N,i,j,flag=1,a[100]={};
-    scanf("%d",&N);
-    for (i=0;i<N;i++) {
+    int N, i, flag = 1;
+    int a[100];
+
+    scanf("%d", &N);
+    for (i = 0; i < N; i++) {
         scanf("%d", &a[i]);
     }
-    for(i=0;i<N;i++){
-        for(j=i;j<=N;j++){
-            if(a[i]==a[N-1-i]){
-                flag=0;
-                break;
-            }
+
+    // Correct palindrome check
+    for (i = 0; i < N / 2; i++) {
+        if (a[i] != a[N - 1 - i]) {
+            flag = 0;  // Not a palindrome
+            break;
         }
     }
-    if(flag==1 || N==1){
-        printf("YES\n");
+
+    if (flag == 1) {
+        printf("YES");
+    } else {
+        printf("NO");
     }
-    else if(flag==0 ){
-        printf("NO\n");
-    }
-    }
+
+    return 0;
+}
