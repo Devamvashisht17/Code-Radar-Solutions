@@ -11,5 +11,4 @@ int isPrime(){
         j++;
     }
     return 1;
-    }
 }
