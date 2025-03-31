@@ -6,9 +6,11 @@ int isPrime(){
     }
     else{
         while(j<num){
-            return 0;
+            if(num%j==0){
+                return 0;
+            }
+            j++;
         }
-        j++;
     }
     return 1;
 }
