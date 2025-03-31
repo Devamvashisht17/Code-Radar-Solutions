@@ -6,7 +6,7 @@ int isPrime(int num){
     }
     else{
         while(p<num){
-            if(num%p=0){
+            if(num%p==0){
                 return 0;
             }
 
