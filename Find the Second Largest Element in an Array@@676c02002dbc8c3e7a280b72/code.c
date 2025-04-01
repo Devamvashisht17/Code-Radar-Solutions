@@ -14,6 +14,7 @@ int main() {
         if (arr[i] > largest) {
             slargest = largest;
             largest = arr[i];
+        }
         // } else if (arr[i] > slargest && arr[i] != largest) {
         //     slargest = arr[i];
         // }
